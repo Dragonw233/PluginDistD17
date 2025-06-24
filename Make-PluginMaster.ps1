@@ -9,7 +9,7 @@ $dlTemplateInstall = "https://gh.atmoomen.top/https://raw.githubusercontent.com/
 $dlTemplateTesting = "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/{0}/latest.zip"
 
 # 当前API级别（用于过滤兼容插件）
-$apiLevel = 11
+$apiLevel = 12
 
 # 获取当前工作目录路径
 $thisPath = Get-Location
