@@ -8,29 +8,18 @@ jobs:
     name: Regenerate PluginMaster
     runs-on: windows-latest
     steps:
-      - name: Extract branch name
-        id: extract_branch
-        shell: bash
-        run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
-
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
 
       - name: Run generator
         run: .\Make-PluginMaster.ps1
-
-      - name: Add all changes to Git
-        run: git add -A
-
-      - name: Commit files
-        continue-on-error: true
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Regenerate PluginMaster" -a || echo "No changes to commit"
-
-      - name: Push changes
-        continue-on-error: true
-        uses: ad-m/github-push-action@v0.3.0
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ steps.extract_branch.outputs.branch }}
+          commit_message: Regenerate PluginMaster
+          branch: ${{ github.head_ref || github.ref_name }}
+          commit_user_name: GitHub Action
+          commit_user_email: action@github.com
+          commit_options: '--no-verify'
