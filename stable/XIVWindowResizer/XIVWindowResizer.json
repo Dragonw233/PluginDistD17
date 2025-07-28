@@ -3,7 +3,7 @@
   "Name": "XIVWindowResizer",
   "InternalName": "XIVWindowResizer",
   "AssemblyVersion": "1.0.0.5",
-  "Description": "Set your game window to arbitrary size not limited by your display resolution. Mostly useful for taking high-resolution screenshots without going fullscreen and using DSR/FSR.\r\nRequires borderless or windowed mode.",
+  "Description": "将你的游戏窗口设置为任意大小，不受显示器分辨率的限制。这在无需全屏且不使用 DSR/FSR 技术的情况下拍摄高分辨率截图时非常有用。\r\n此功能需要在无边框窗口模式或窗口模式下使用。",
   "ApplicableVersion": "any",
   "Tags": [
     "gpose",
@@ -15,8 +15,6 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Game window resizing plugin. Ever wanted to take 8K screenshots on 144p screen? Now you can.",
-  "AcceptsFeedback": true,
-  "_isDip17Plugin": true,
-  "_Dip17Channel": "stable"
+  "Punchline": "游戏窗口调整插件。你是否曾想过在 144p 分辨率的屏幕上截取 8K 画质的截图？现在你可以做到了。",
+  "AcceptsFeedback": true
 }
