@@ -1064,13 +1064,13 @@
     "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CashFlow/latest.zip"
   },
   {
-    "Author": "Kouzukii",
+    "Author": "Kouzukii, Zhouhuichen741",
     "Name": "Character Panel Refined",
     "InternalName": "CharacterPanelRefined",
-    "AssemblyVersion": "1.8.3.0",
+    "AssemblyVersion": "1.8.3.2",
     "Description": "Character Panel Refined cuts away useless information from the character panel, while adding useful stats like critical hit and direct hit percentages as well as estimates damage output to allow for easier comparison of gear.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/Kouzukii/ffxiv-characterstatus-refined",
+    "RepoUrl": "https://github.com/zhouhuichen741/ffxiv-characterstatus-refined",
     "Tags": [
       "character",
       "stats"
@@ -1094,7 +1094,7 @@
     "_Dip17Channel": "stable",
     "IsHide": "False",
     "IsTestingExclusive": "False",
-    "LastUpdate": "1743102520",
+    "LastUpdate": "1756313769",
     "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/CharacterPanelRefined/latest.zip",
     "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CharacterPanelRefined/latest.zip",
     "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/testing-live/CharacterPanelRefined/latest.zip"
